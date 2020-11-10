@@ -1,7 +1,7 @@
 # Bytes
 A clean simple BitTorrent client
 
-![]()
+![](screenshot.jpg)
 
 ## Issue to solve
 Current popular clients are made primarily for advanced users.
