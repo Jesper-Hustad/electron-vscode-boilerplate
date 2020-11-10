@@ -6,7 +6,7 @@ A clean simple BitTorrent client
 ## Issue to solve
 Current popular clients are made primarily for advanced users.
 They include features that most people don't need.
-Some have ads and some haven't changed UI since they were released.
+Some have ads and some haven't changed UI since they were released decades ago.
 
 ## Design
 - Dark theme
