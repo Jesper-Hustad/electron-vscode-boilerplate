@@ -1,7 +1,8 @@
 # Bytes
 A clean simple BitTorrent client
 
-![](screenshot.jpg)
+<!-- ![](screenshot.jpg) -->
+![](vector_design.svg)
 
 ## Issue to solve
 Current popular clients are made primarily for advanced users.
