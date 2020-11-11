@@ -1,0 +1,15 @@
+{
+  "name": "electron-seamless-titlebar-tutorial",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/binaryfunt/electron-seamless-titlebar-tutorial",
+  "author": "binaryfunt",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.2.4"
+  }
+}

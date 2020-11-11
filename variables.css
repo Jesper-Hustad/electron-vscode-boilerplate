@@ -1,0 +1,12 @@
+:root {
+    --accent: #F4837C;
+    --primary:#1E1E1E;
+    --secondary:#3C3C3C;
+    --tertiary:#333333;
+    --quaternary: #252526;
+    --text: #CCCCCC;
+
+    --titlebar-height: 28px;
+    --leftbar-width: 3rem;
+    --bottombar-height: 24px;
+  }

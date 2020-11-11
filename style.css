@@ -1,0 +1,129 @@
+.logo-fill{fill:var(--accent);}
+
+html, body {
+  
+    height: 100%; 
+    margin: 0;
+  
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--primary);
+    /* border-left: 4rem solid var(--tertiary); */
+      /* border-bottom: 24px solid  var(--accent); */
+    position: absolute;
+    top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    /* background: #1A2933; */
+    color: var(--text);
+}
+
+
+/* table styles */
+.logo-icon{
+    height: 1rem;
+}
+
+
+#left-bar{
+    float: left;
+    width: var(--leftbar-width);
+    height: inherit;
+    /* min-height: -webkit-fill-available; */
+    background-color: var(--tertiary);
+    padding-top: var(--titlebar-height);
+}
+
+#bottom-bar{
+    background-color: var(--accent);
+    width: -webkit-fill-available;
+    height: var(--bottombar-height);
+    position: fixed;
+    bottom: 0;
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.button-icon{
+    /* opacity: 0.5; */
+    width: auto;
+    height: auto;
+}
+
+
+.vertical-menu a {
+    /* background-color: #eee; Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 8px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+/* to not go behind titlebar */
+/* .vertical-menu{
+    
+} */
+
+/* .vertical-menu a:hover {
+background-color: #ccc; /* Dark grey background on mouse-over */
+
+a {
+    opacity: 0.6;
+}
+
+a:hover{
+    opacity: 1;
+}
+  
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    /* padding: 8px; */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
+
+/* scrollbar styles */
+
+/* width */
+::-webkit-scrollbar {
+    /* width: 7px; */
+    width: 0.8rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

@@ -2,7 +2,7 @@
 A clean simple BitTorrent client
 
 <!-- ![](screenshot.jpg) -->
-![](vector_design.svg)
+![](./design/vector_design.svg)
 
 ## Issue to solve
 Current popular clients are made primarily for advanced users.
@@ -31,3 +31,14 @@ Some have ads and some haven't changed UI since they were released decades ago.
 - Design can be changed, but a dark theme modern look is still the goal.  
 - Other applications can get close to something like this, but they require installing themes and are a hassle.  
   You can't beat a applications design that has been built from the ground up and implemented in every step.  
+
+
+## Build
+```console
+git clone https://github.com/Jesper-Hustad/Bytes.git
+cd ./Bytes
+npm install
+npm start
+```
+
+Still in development so many things may be buggy
