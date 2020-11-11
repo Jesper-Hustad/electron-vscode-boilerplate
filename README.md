@@ -27,8 +27,8 @@ npm start
 ## Issues
 - [ ] Haven't tested mac, need to make sure it looks good on there
 - [ ] Clean up code, refactoring required
-- [ ] Show more functionality of boilerplate.
-  - [] buttons
+- [ ] Show more functionality of boilerplate.  
+  - buttons  
   - [x] accent color variable
   - more?
 
