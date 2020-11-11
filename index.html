@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Bytes</title>
+  <title>App name</title>
 
   <link rel="stylesheet" href="variables.css" />
   <link rel="stylesheet" href="style.css" />
@@ -32,7 +32,7 @@
           <img src="./icons/logo.svg" class="logo-icon"></span>
 
         <div id="window-title" style="place-content: center; width: -webkit-fill-available; ">
-          <span>Bytes</span>
+          <span>App name</span>
         </div>
 
       </div>
@@ -75,8 +75,11 @@
       A clean simple BitTorrent client.
     </p> -->
 
+
+
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit nulla ut libero varius sollicitudin.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span style="color: var(--accent);">Quisque hendrerit
+        nulla ut libero varius sollicitudin.</span>
       Morbi suscipit pretium velit id dictum. Curabitur congue faucibus lorem vel placerat. Morbi id sapien ut leo
       tincidunt consectetur quis eu odio. Quisque aliquet, nisl eget dictum sodales, mauris sapien fringilla nisl, eget
       aucto urna libero sit amet lectus. Nam et semper diam. Quisque augue velit, vulputate sit amet nisl vel, accumsan
@@ -85,6 +88,19 @@
       porta ligula vulputate a. Maecenas sapien dolor, eleifend a rhoncus placerat, laoreet ut augue. Curabitur quis
       auctor est, ut congue neque.
     </p>
+
+
+    <p>Set a custom accent color here:</p>
+
+    <input class="cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker" id="color-picker" type="color"
+      data-id="bg-color" name="Background">
+
+    <script>
+      document.getElementById('color-picker').addEventListener('input', (e) => {
+        document.documentElement.style.setProperty('--accent', e.target.value);
+      });
+    </script>
+
     <p>
       Donec lobortis pellentesque magna, at aliquam sapien et egestas vel. Aenean ac arcu vitae nisi luctus iaculis nec
       nec tortor. In nunc dolor, tincidunt in tincidunt et, scelerisque at velit. Nulla auctor vulputate ex, eget tempus
